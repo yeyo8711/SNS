@@ -332,17 +332,17 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract TEST is ERC20, Ownable {
+contract SNS is ERC20, Ownable {
     uint256 public maxWalletPercent;
     uint256 public maxTransactionPercent;
-    IUniswapV2Router02 public uniswapV2Router;
     address public uniswapV2Pair;
     bool public maxWallet;
     bool public maxTransaction;
+    IUniswapV2Router02 public uniswapV2Router;
     mapping(address => bool) public automatedMarketMakerPairs;
     mapping(address => bool) private isExcludedFromMax;
 
-    constructor() ERC20("TEST", "SNS") {
+    constructor() ERC20("Shibarium Name Service", "SNS") {
         IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(
             0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
         );
