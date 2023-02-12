@@ -7,7 +7,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const SNS = await hre.ethers.getContractFactory("TEST");
+  const SNS = await hre.ethers.getContractFactory("SNS");
   SNSContract = await SNS.deploy();
   await SNSContract.deployed();
 

@@ -1,4 +1,4 @@
-// https://t.me/ShibariumNameServicePortal
+// https://t.me/dogtag_id
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
