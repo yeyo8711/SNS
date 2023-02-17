@@ -1,0 +1,17 @@
+{
+  "name": "sns-server",
+  "version": "1.0.0",
+  "description": "Server that handles metadata and images",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dippy",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ethers": "^6.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1"
+  }
+}
